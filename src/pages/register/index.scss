@@ -1,0 +1,21 @@
+.input{
+    border: none;
+    background-color: transparent;
+    flex-grow: 1;
+}
+h1{
+    padding-bottom: 20px;
+}
+.line{
+    height: 1px;
+    background-color: black;
+    color: black;
+    width: 360px;
+    margin-left: 0px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
