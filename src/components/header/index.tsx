@@ -24,7 +24,7 @@ function Header() {
           <ul>
             <a href="/"><li>Menu</li></a>
             <a href="/"><li>Deals</li></a>
-            <a href="/"><li> Book a Party</li></a>
+            <a href="/bookAParty"><li> Book a Party</li></a>
             <a href="/"><li>Find a KFC</li></a>
           </ul>
      </div>

@@ -11,6 +11,8 @@ import OrderPage from "./pages/order_page";
 import CheckOut from "./pages/check-out";
 import Details from "./pages/details";
 import ManageFood from "./pages/admin/food";
+import Booking from "./pages/bookAParty";
+
 
 function App() {
   const router = createBrowserRouter([
@@ -23,6 +25,8 @@ function App() {
         {path:"/register", element: <Register/>},
         {path:"/check-out", element: <CheckOut/>},
         {path:"/details/:id", element: <Details/>},
+        {path:"/bookAParty", element: <Booking/>},
+        
         
       ],
     },
